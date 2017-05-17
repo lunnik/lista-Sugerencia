@@ -94,7 +94,7 @@ public class ImageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             viewHolderImage.btnCancel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    cancel(imageMemeList.get(position).getId() + "");
                 }
             });
 
