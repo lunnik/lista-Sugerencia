@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.odn.listasugerencias.DeailsActivity">
+
+
+    <TextView
+        android:id="@+id/ad_txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:id="@+id/ad_et_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/da_txt_id"
+        android:hint="Descripcion" />
+
+    <Button
+        android:id="@+id/ad_btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad_et_desc"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar" />
+
+</RelativeLayout>
